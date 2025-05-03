@@ -20,6 +20,7 @@ def main(page: ft.Page):
                 ft.IconButton(ft.Icons.REMOVE, on_click=minus_click),
                 txt_number,
                 ft.IconButton(ft.Icons.ADD, on_click=plus_click),
+                ft.IconButton(ft.Icons.REMOVE, on_click=minus_click)
             ],
             alignment=ft.MainAxisAlignment.CENTER,
         )
